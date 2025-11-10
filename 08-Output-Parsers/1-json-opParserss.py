@@ -4,7 +4,7 @@ from html import parser
 from langchain_google_genai import ChatGoogleGenerativeAI # there is some issue with langchain_huggingface package currently
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
-from langchain_core.output_parsers import StrOutputParser
+from langchain_core.output_parsers import JSOOutputParser
 import os
 load_dotenv()
 
